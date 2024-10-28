@@ -305,9 +305,6 @@ button:hover {
   text-decoration: none;
   list-style: none;
   color: rgb(0, 0, 0);
-
-  
-  
 }
 
 .bottom{
@@ -349,7 +346,34 @@ line-height: 1.5;
   width: 750px;
   max-width: 100%;  Responsive size 
 } */
+ @media screen and (max-width: 1183px) {
+.column-right h1 {
+    font-size: 30px;
+}
+.column-right p {
+  font-size: 22px;
+}
+.browse-films{
+  font-size: 22px;
+}
+.image2 {
+  width: 650px;
+}
+.browse-films {
+  width: 200px; 
+  font-size: 20px;
+}
 
+
+
+
+} 
+
+@media screen and (max-width: 1265px) {
+  .image2 {
+    width: 700px;
+  }
+}
 
 @media screen and (max-width: 1098px) {
   .hero-container {
@@ -385,7 +409,7 @@ line-height: 1.5;
 
   .image2 {
       width: 100%;
-      max-width: 400px; /* Shrink image for smaller screens */
+      max-width: 400px; 
   }
 
   .browse-films {
@@ -404,16 +428,78 @@ line-height: 1.5;
   .features a{
     font-size: 15px;
   }
+  .poster1{
+    width: 150px;
+    height: auto;
+  }
+  .poster2{
+    width: 150px;
+    height: auto;
+  }
+  .poster3{
+    width: 150px;
+    height: auto;
+  }
+  .poster4{
+    width: 150px;
+    height: auto;
+  }
+  .poster5{
+    width: 150px;
+    height: auto;
+  }
+  .poster6{
+    width: 150px;
+    height: auto;
+  }
+  .poster7{
+    width: 150px;
+    height: auto;
+  }
+  .poster8{
+    width: 150px;
+    height: auto;
+  }
+  .poster11{
+    width: 150px;
+    height: auto;
+  }
+  .poster22{
+    width: 150px;
+    height: auto;
+  }
+  .poster33{
+    width: 150px;
+    height: auto;
+  }
+  .poster44{
+    width: 150px;
+    height: auto;
+  }
+  .poster55{
+    width: 150px;
+    height: auto;
+  }
+  .poster66{
+    width: 150px;
+    height: auto;
+  }
+  .poster77{
+    width: 150px;
+    height: auto;
+  }
+  .poster88{
+    width: 150px;
+    height: auto;
+  }
+  .browse-films{
+    font-size: 15px;
+  }
+  
   
 }
 
-@media screen and (max-width: 582px) {
-  .logo{
-    display:none
-  }
-}
-
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 580px) {
   .logo{display:none
   }
   .image1{
@@ -431,4 +517,124 @@ line-height: 1.5;
   .bottom a{
     font-size: 10px;
   } 
+
+  .features2 {
+    font-size: 10px;  
+    }
+  .features2 a{
+    font-size: 12px;  
+  }
+  .features a{
+    font-size: 12px;  
+  }
+  
+  
+  
+}
+@media screen and (max-width: 370px) {
+  button {
+    padding: 1px 3px;
+    font-size: 8px;
+    box-shadow: 1px 1px 0px #ffffff, -1px -1px 0px #808080;
+  }
+  .image1{
+    width: 40px;
+  }
+  .poster1{
+    width: 120px;
+    height: auto;
+  }
+  .poster2{
+    width: 120px;
+    height: auto;
+  }
+  .poster3{
+    width: 120px;
+    height: auto;
+  }
+  .poster4{
+    width: 120px;
+    height: auto;
+  }
+  .poster5{
+    width: 120px;
+    height: auto;
+  }
+  .poster6{
+    width: 120px;
+    height: auto;
+  }
+  .poster7{
+    width: 120px;
+    height: auto;
+  }
+  .poster8{
+    width: 120px;
+    height: auto;
+  }
+  .poster11{
+    width: 120px;
+    height: auto;
+  }
+  .poster22{
+    width: 120px;
+    height: auto;
+  }
+  .poster33{
+    width: 120px;
+    height: auto;
+  }
+  .poster44{
+    width: 120px;
+    height: auto;
+  }
+  .poster55{
+    width: 120px;
+    height: auto;
+  }
+  .poster66{
+    width: 120px;
+    height: auto;
+  }
+  .poster77{
+    width: 120px;
+    height: auto;
+  }
+  .poster88{
+    width: 120px;
+    height: auto;
+  }
+  .features2 {
+    font-size: 7px;  
+    }
+  .features2 a{
+    font-size: 7px;  
+  }
+  .features {
+    font-size: 7px;  
+    }
+  .features a{
+    font-size: 7px;  
+  }
+  
+}
+
+@media screen and (max-width: 340px) {
+  .column-right h1 {
+    font-size: 1rem;
+}
+
+.column-right p {
+    font-size: 0.7rem;
+    line-height: 1.2;
+}
+.exit{
+  width: 25px;
+}
+.number a{
+  font-size: 6px;
+}
+.bottom a{
+  font-size: 6px;
+} 
 }
